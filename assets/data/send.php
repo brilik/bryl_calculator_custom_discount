@@ -4,7 +4,7 @@ $price = urldecode($_POST['price']);
 $discount = urldecode($_POST['discount']);
 $select = urldecode($_POST['select']);
 
-$sendto = "megabrilik@gmail.com";
+$sendto = urldecode($_POST['mailto']);
 $cururl = $_POST['url'];
 
 $error[] = '';

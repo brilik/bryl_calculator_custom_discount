@@ -42,12 +42,12 @@ class Calculator
 
 //        $view = $this->calc_generate_table($arg['title'], $arg['select'], $arg['price']);
 
-        $view = $this->calc_generate_form($arg['title'], $arg['select'], $arg['price']);
+        $view = $this->calc_generate_form($arg['title'], $arg['select'], $arg['price'], $arg['mailto']);
 
         return $view;
     }
 
-    private function calc_generate_form($title, $arrSelect, $price)
+    private function calc_generate_form($title, $arrSelect, $price, $mailto)
     {
         $cururl = 'http' . (($_SERVER['HTTPS'] == 'on') ? 's' : '') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 
@@ -79,6 +79,7 @@ class Calculator
             <input type="hidden" name="url" value="' . $cururl . '">
             <div class="group-btn-sumbit">
                 <input id="calc-send" type="submit">
+                <input type="hidden" name="mailto" value="'. $mailto .'">
             </div>
             <div class="message"></div>
         </form>

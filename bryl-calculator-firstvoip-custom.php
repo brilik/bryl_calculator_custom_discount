@@ -3,7 +3,7 @@
 /**
  * Plugin Name: Calculator FirstVoip Custom
  * Plugin URI: http://URI_Of_Page_Describing_Plugin_and_Updates
- * Description: Example uses plugin shortcode: [Calculator title="Totals Without" select="1:0,2:0,3:15,4:35,5:55,6:65,7:75,8:75,9:75,10+:75" price="10.00"]
+ * Description: Example uses plugin shortcode: [Calculator title="Totals Without" select="1:0,2:0,3:15,4:35,5:55,6:65,7:75,8:75,9:75,10+:75" price="10.00" mailto="example@mail.ru"]
  * Version: 1.0
  * Author: Vitalii Bryl
  * Author URI: mailto:megabrilik@gmail.com
