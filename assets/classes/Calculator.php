@@ -78,7 +78,7 @@ class Calculator
             </div>
             <input type="hidden" name="url" value="' . $cururl . '">
             <div class="group-btn-sumbit">
-                <input id="calc-send" type="submit">
+                <input id="calc-send" type="submit" value="Send">
                 <input type="hidden" name="mailto" value="'. $mailto .'">
             </div>
             <div class="message"></div>
